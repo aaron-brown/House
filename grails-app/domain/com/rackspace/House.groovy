@@ -10,7 +10,7 @@ class House
     Integer zipcode
     String familyName
     Integer occupants
-    
+
     static constraints =
     {
         street(blank: false, size: 1..31)
