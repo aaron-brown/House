@@ -13,6 +13,11 @@ class House
     
     static constraints =
     {
-        
+        street(blank: false, size: 1..31)
+        city(blank: false, size: 1..31)
+        state(blank: false, size: 1..15)
+        zipcode(blank: false, size: 5)
+        familyName(blank: false, size: 1..31)
+        occupants(nullable: true)
     }
 }
