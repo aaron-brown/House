@@ -2,6 +2,8 @@ package com.rackspace
 
 class Room
 {
+    static belongsTo = House
+    
     Date dateCreated
     Date dateUpdated
     String roomName
